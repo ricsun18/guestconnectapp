@@ -12,6 +12,12 @@
 		8251052E239C7FFA006E8F5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8251052C239C7FFA006E8F5D /* Main.storyboard */; };
 		82510530239C7FFC006E8F5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8251052F239C7FFC006E8F5D /* Assets.xcassets */; };
 		82510533239C7FFC006E8F5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82510531239C7FFC006E8F5D /* LaunchScreen.storyboard */; };
+		8251053B239C833C006E8F5D /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8251053A239C833C006E8F5D /* Event.swift */; };
+		8251053D239C8388006E8F5D /* GuestDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8251053C239C8388006E8F5D /* GuestDetail.swift */; };
+		8251053F239C8410006E8F5D /* AddEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8251053E239C8410006E8F5D /* AddEventViewController.swift */; };
+		82510541239C843E006E8F5D /* GuestListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82510540239C843E006E8F5D /* GuestListViewController.swift */; };
+		82510543239C8455006E8F5D /* GuestDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82510542239C8455006E8F5D /* GuestDetailViewController.swift */; };
+		82510545239CA971006E8F5D /* AddGuestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82510544239CA971006E8F5D /* AddGuestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		8251052F239C7FFC006E8F5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82510532239C7FFC006E8F5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82510534239C7FFC006E8F5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8251053A239C833C006E8F5D /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		8251053C239C8388006E8F5D /* GuestDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestDetail.swift; sourceTree = "<group>"; };
+		8251053E239C8410006E8F5D /* AddEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEventViewController.swift; sourceTree = "<group>"; };
+		82510540239C843E006E8F5D /* GuestListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestListViewController.swift; sourceTree = "<group>"; };
+		82510542239C8455006E8F5D /* GuestDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestDetailViewController.swift; sourceTree = "<group>"; };
+		82510544239CA971006E8F5D /* AddGuestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGuestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +67,13 @@
 			isa = PBXGroup;
 			children = (
 				82510528239C7FFA006E8F5D /* AppDelegate.swift */,
+				8251053C239C8388006E8F5D /* GuestDetail.swift */,
+				8251053A239C833C006E8F5D /* Event.swift */,
 				8251052A239C7FFA006E8F5D /* ViewController.swift */,
+				8251053E239C8410006E8F5D /* AddEventViewController.swift */,
+				82510540239C843E006E8F5D /* GuestListViewController.swift */,
+				82510544239CA971006E8F5D /* AddGuestViewController.swift */,
+				82510542239C8455006E8F5D /* GuestDetailViewController.swift */,
 				8251052C239C7FFA006E8F5D /* Main.storyboard */,
 				8251052F239C7FFC006E8F5D /* Assets.xcassets */,
 				82510531239C7FFC006E8F5D /* LaunchScreen.storyboard */,
@@ -136,7 +154,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8251052B239C7FFA006E8F5D /* ViewController.swift in Sources */,
+				8251053F239C8410006E8F5D /* AddEventViewController.swift in Sources */,
+				82510543239C8455006E8F5D /* GuestDetailViewController.swift in Sources */,
+				8251053D239C8388006E8F5D /* GuestDetail.swift in Sources */,
+				8251053B239C833C006E8F5D /* Event.swift in Sources */,
 				82510529239C7FFA006E8F5D /* AppDelegate.swift in Sources */,
+				82510541239C843E006E8F5D /* GuestListViewController.swift in Sources */,
+				82510545239CA971006E8F5D /* AddGuestViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
